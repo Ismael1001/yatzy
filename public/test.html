@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Yatzy JavaScript Code</title>
+
+    <script src="assets/dice.js"></script>
+    <script src="assets/yatzy_game.js"></script>
+    <script src="assets/yatzy_engine.js"></script>
+
+    <script>
+        yatzyGame.displayGameState();
+
+        yatzyGame.toggleKeepDie(0);
+        yatzyGame.toggleKeepDie(2);
+
+        yatzyGame.rollDice();
+        yatzyGame.displayGameState();
+
+        yatzyGame.rollDice();
+        yatzyGame.displayGameState();
+
+        const turnScore = YatzyEngine.calculateTurnScore(yatzyGame, 'ones');
+        console.log(`Score for the ones box on turn ${yatzyGame.turn}: ${turnScore}`);
+
+        YatzyEngine.updateOverallScore(yatzyGame);
+    </script>
+</head>
+<body>
+    <div id="game-state-container"></div>
+</body>
+</html>
