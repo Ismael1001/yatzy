@@ -22,7 +22,7 @@ This is a simple single-player Yatzy game implemented using HTML, CSS, and JavaS
 
 ## Development
 
-Clone the repository from [GitHub](https://github.com/yourusername/yatzy) to explore or contribute.
+Clone the repository from [GitHub](https://github.com/Ismael1001/yatzy) to explore or contribute.
 
 ## Credits
 

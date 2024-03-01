@@ -14,7 +14,7 @@
 ### Components:
 - **Header:** Game title and navigation links.
 - **Main Section:** Game instructions, current state, and buttons.
-- **Footer:** Copyright notice.
+- **Footer:** © 2024 Yatzy Game
 
 ## Screenshots
 
