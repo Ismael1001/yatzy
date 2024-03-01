@@ -20,4 +20,3 @@
 
 Include screenshots of different game states.
 
-[Screenshots](/docs/game_screenshot)
